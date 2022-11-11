@@ -18,8 +18,8 @@ Reading notes of _How to Think Like a Computer Scientist_
   - keep top level statements, including function calls, together at the bottom of the program
   ```
   
-  - **unit testing**:
-    - Automatically verify that individual pieces of code, such as functions, are working properly.
-    - Programmers need to take into all kinds of data types/contents into consideration.
-    - Usually use Pytest, assert ...
-    
+- **unit testing**:
+  - Automatically verify that individual pieces of code, such as functions, are working properly.
+  - Programmers need to take into all kinds of data types/contents into consideration.
+  - Usually use Pytest, assert ...
+
