@@ -23,3 +23,14 @@ Reading notes of _How to Think Like a Computer Scientist_
   - Programmers need to take into all kinds of data types/contents into consideration.
   - Usually use Pytest, assert ...
 
+## 11. List
+- **Reference**
+  - Difference between mutables and immutables
+    - For immutable objects (strings and tuples), same contents === same object
+    - For mutable objects (lists, dictionaries, modules...), same contents != same object
+  -  Reference
+    - If you assign a to b, Changing part of a will also leads to changing b
+    
+- **Difference of List and Range**: **Promise**
+  - [1, 2, 3] and range(4) are different, asin the list will immediately take all the space the contents need, yet 'range' only gives a promise -- the space would only be taken up when the due content is required.
+  - Similar promises: iterator, ...
